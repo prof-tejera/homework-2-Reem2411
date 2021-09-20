@@ -41,8 +41,13 @@ Deploy the application using one of the methods covered in class: Github Pages, 
 ## Submitting
 Edit this file (README.md) and complete the following:
 
-- URL to live application: 
-- How did you deploy it?
-- What code editor are you using?
+- URL to live application: https://reem2411.github.io/sample-react/
+- How did you deploy it? 
+    - After creating my repo on github and pushing my static files to github through github desktop, I followed the follownig steps from the react deployment code README file: 
+    commit your files (make sure package-lock.json is there)
+      - In package.json, add a new key/value as: "homepage": "https://<user>.github.io/<repo>"
+      - In Github, Go to Settings -> Pages -> in Source -> gh-pages branch -> Click Save
+      - Once the build-deploy action finishes running, the app should be live at https://<user>.github.io/<repo>
+- What code editor are you using? VSCode 
 
 That is all!
